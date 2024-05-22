@@ -18,5 +18,7 @@ public class RemoveCharacter {
 		sb.append(c);
 	}
 	System.out.println(sb);
+	
+	str.chars().distinct().forEach(e->System.out.print((char)e));
 }
 }

@@ -1,11 +1,16 @@
 package array;
 
 import java.util.Arrays;
+import java.util.Comparator;
+import java.util.Optional;
+import java.util.stream.IntStream;
 
-public class AAA{
+public class AAA {
 	public static void main(String[] args) {
-		int a[]= {1,2,3,4,5,2,3,5};
-		int[] nonre=Arrays.stream(a).distinct().toArray();
-		System.out.println(Arrays.toString(nonre));
+		String str="Kirran Batwaal";
+		//char[] ch=str.toCharArray();
+		
+		str.chars().distinct().forEach(e->System.out.print((char)e));
+
 	}
 }

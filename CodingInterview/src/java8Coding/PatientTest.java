@@ -14,8 +14,8 @@ public class PatientTest {
 		list.add(new Patient("EFG", 24, "CORONA", 27000));
 		list.add(new Patient("MNP", 27, "FEVER", 20000));
 		list.add(new Patient("XVB", 26, "CORONA", 26000));
-		
-	// corona list;
+
+		// corona list;
 		list.stream().filter(e->e.getDisease().equals("CORONA")).forEach(System.out::println);
 		System.out.println("================================================================");
 		

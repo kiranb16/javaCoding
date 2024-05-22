@@ -45,5 +45,6 @@ public class Employee2Test {
 				.collect(Collectors.averagingDouble(Employee2::getSalary));
 		System.out.println(" female salary "+salary );
 
+		
 	}
 }

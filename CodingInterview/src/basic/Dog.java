@@ -9,7 +9,7 @@ class Animal {
 
 public class Dog extends Animal {
 	Dog() {
-		super();
+		//super();
 		System.out.println("dog is created");
 	}
 	
